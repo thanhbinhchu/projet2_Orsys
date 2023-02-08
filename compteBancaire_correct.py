@@ -3,7 +3,7 @@ def ATP():
 
     for ligne in f:
         l = ligne.split(";")
-        print("Le nom du propriétaire est:", l[1])
+        print("Le nom du proprietaire est:", l[1])
     f.close()
 
 
@@ -70,3 +70,12 @@ def cc():
     return ligne
 
 #test test test
+
+if __name__ == '__main__':
+    rec(1)
+    ATP()
+    dernier()
+    sp()
+    date()
+    cc()
+
