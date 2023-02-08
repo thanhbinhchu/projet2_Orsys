@@ -132,11 +132,11 @@ def CreerCompte(data):
 
 
 if __name__ == '__main__':
-    data = []
-#    proprietaire(data)
-#    compte(data)
-#    AfficherTousProprietaires()
-#    RechercherCompte('123')
-#    SaisirProprietaire(111)
+    data = [] ;
+    proprietaire(data)
+    compte(data)
+    AfficherTousProprietaires()
+    RechercherCompte('123')
+    SaisirProprietaire(111)
     CreerCompte(data)
 
